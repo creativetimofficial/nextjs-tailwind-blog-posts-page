@@ -27,7 +27,7 @@ function Hero() {
             {/* @ts-ignore */}
             <Input label="name@creative-tim.com" />
           </div>
-          <Button size="md" className="lg:w-32 shrink-0" fullWidth color="gray">
+          <Button size="md" className="lg:w-max shrink-0" fullWidth color="gray">
             get started
           </Button>
         </div>

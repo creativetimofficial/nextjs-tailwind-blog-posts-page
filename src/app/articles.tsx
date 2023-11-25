@@ -6,17 +6,17 @@ import ArticleCard from "@/components/article-card";
 
 const ARTICLES = [
   {
-    img: "/image/blogs/blog-1.png",
+    img: "/nextjs-tailwind-blog-posts-page/image/blogs/blog-1.png",
     title: "Blockchain Development: How to learn",
     desc: "This article offers valuable insights into the skills, resources, and steps needed to embark on a journey in blockchain development.",
   },
   {
-    img: "/image/blogs/blog-2.png",
+    img: "/nextjs-tailwind-blog-posts-page/image/blogs/blog-2.png",
     title: "How to become a full stack developer - Roadmap",
     desc: "For those aspiring to become full stack developers, this roadmap is your ultimate guide. This article outlines the key milestones.",
   },
   {
-    img: "/image/blogs/blog-3.png",
+    img: "/nextjs-tailwind-blog-posts-page/image/blogs/blog-3.png",
     title: "Join the Web 3 Conference 2023 - Registration details",
     desc: "This article provides essential registration details for this exciting event where experts gather to explore the latest developments",
   },

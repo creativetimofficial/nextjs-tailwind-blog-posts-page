@@ -1,4 +1,9 @@
-import { Typography, IconButton, Input, Button } from "@material-tailwind/react";
+import {
+  Typography,
+  IconButton,
+  Input,
+  Button,
+} from "@material-tailwind/react";
 
 const CURRENT_YEAR = new Date().getFullYear();
 const LINKS = ["Company", "About Us", "Team", "Products", "Blog"];
@@ -32,7 +37,13 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center !justify-between">
-          <Typography variant="h6" className="text-gray-900">
+          <Typography
+            as="a"
+            href="https://www.material-tailwind.com"
+            target="_blank"
+            variant="h6"
+            className="text-gray-900"
+          >
             Material Tailwind
           </Typography>
           <ul className="flex justify-center my-4 md:my-0 w-max mx-auto items-center gap-4">
@@ -69,7 +80,15 @@ export function Footer() {
           color="blue-gray"
           className="text-center mt-12 font-normal !text-gray-700"
         >
-          All rights reserved. &copy; {CURRENT_YEAR} Material Tailwind
+          &copy; {CURRENT_YEAR} Made with{" "}
+          <a href="https://www.material-tailwind.com" target="_blank">
+            Material Tailwind
+          </a>{" "}
+          by{" "}
+          <a href="https://www.creative-tim.com" target="_blank">
+            Creative Tim
+          </a>
+          .
         </Typography>
       </div>
     </footer>
